@@ -1,0 +1,180 @@
+﻿namespace hotelmanagementtt
+{
+    partial class Dashboard
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCustomerRegistration = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCustomerDetails = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEmployee = new Guna.UI2.WinForms.Guna2Button();
+            this.panel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnEmployee);
+            this.panel1.Controls.Add(this.btnCustomerDetails);
+            this.panel1.Controls.Add(this.btnCheckOut);
+            this.panel1.Controls.Add(this.btnCustomerRegistration);
+            this.panel1.Controls.Add(this.btnAddRoom);
+            this.panel1.Location = new System.Drawing.Point(31, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1249, 130);
+            this.panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(31, 159);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1249, 500);
+            this.panel2.TabIndex = 1;
+            // 
+            // btnAddRoom
+            // 
+            this.btnAddRoom.BorderRadius = 26;
+            this.btnAddRoom.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnAddRoom.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnAddRoom.CheckedState.ForeColor = System.Drawing.Color.Teal;
+            this.btnAddRoom.CheckedState.Parent = this.btnAddRoom;
+            this.btnAddRoom.CustomImages.Parent = this.btnAddRoom;
+            this.btnAddRoom.FillColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddRoom.ForeColor = System.Drawing.Color.White;
+            this.btnAddRoom.HoverState.Parent = this.btnAddRoom;
+            this.btnAddRoom.Location = new System.Drawing.Point(27, 24);
+            this.btnAddRoom.Name = "btnAddRoom";
+            this.btnAddRoom.ShadowDecoration.Parent = this.btnAddRoom;
+            this.btnAddRoom.Size = new System.Drawing.Size(236, 85);
+            this.btnAddRoom.TabIndex = 0;
+            this.btnAddRoom.Text = "Add Room";
+            // 
+            // btnCustomerRegistration
+            // 
+            this.btnCustomerRegistration.BorderRadius = 26;
+            this.btnCustomerRegistration.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnCustomerRegistration.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnCustomerRegistration.CheckedState.ForeColor = System.Drawing.Color.Teal;
+            this.btnCustomerRegistration.CheckedState.Parent = this.btnCustomerRegistration;
+            this.btnCustomerRegistration.CustomImages.Parent = this.btnCustomerRegistration;
+            this.btnCustomerRegistration.FillColor = System.Drawing.Color.LightSeaGreen;
+            this.btnCustomerRegistration.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomerRegistration.ForeColor = System.Drawing.Color.White;
+            this.btnCustomerRegistration.HoverState.Parent = this.btnCustomerRegistration;
+            this.btnCustomerRegistration.Location = new System.Drawing.Point(269, 24);
+            this.btnCustomerRegistration.Name = "btnCustomerRegistration";
+            this.btnCustomerRegistration.ShadowDecoration.Parent = this.btnCustomerRegistration;
+            this.btnCustomerRegistration.Size = new System.Drawing.Size(236, 85);
+            this.btnCustomerRegistration.TabIndex = 1;
+            this.btnCustomerRegistration.Text = "Customer Registration";
+            // 
+            // btnCheckOut
+            // 
+            this.btnCheckOut.BorderRadius = 26;
+            this.btnCheckOut.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnCheckOut.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnCheckOut.CheckedState.ForeColor = System.Drawing.Color.Teal;
+            this.btnCheckOut.CheckedState.Parent = this.btnCheckOut;
+            this.btnCheckOut.CustomImages.Parent = this.btnCheckOut;
+            this.btnCheckOut.FillColor = System.Drawing.Color.LightSeaGreen;
+            this.btnCheckOut.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCheckOut.ForeColor = System.Drawing.Color.White;
+            this.btnCheckOut.HoverState.Parent = this.btnCheckOut;
+            this.btnCheckOut.Location = new System.Drawing.Point(511, 24);
+            this.btnCheckOut.Name = "btnCheckOut";
+            this.btnCheckOut.ShadowDecoration.Parent = this.btnCheckOut;
+            this.btnCheckOut.Size = new System.Drawing.Size(236, 85);
+            this.btnCheckOut.TabIndex = 2;
+            this.btnCheckOut.Text = "Check Out";
+            // 
+            // btnCustomerDetails
+            // 
+            this.btnCustomerDetails.BorderRadius = 26;
+            this.btnCustomerDetails.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnCustomerDetails.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnCustomerDetails.CheckedState.ForeColor = System.Drawing.Color.Teal;
+            this.btnCustomerDetails.CheckedState.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.CustomImages.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.FillColor = System.Drawing.Color.LightSeaGreen;
+            this.btnCustomerDetails.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomerDetails.ForeColor = System.Drawing.Color.White;
+            this.btnCustomerDetails.HoverState.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.Location = new System.Drawing.Point(753, 24);
+            this.btnCustomerDetails.Name = "btnCustomerDetails";
+            this.btnCustomerDetails.ShadowDecoration.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.Size = new System.Drawing.Size(236, 85);
+            this.btnCustomerDetails.TabIndex = 3;
+            this.btnCustomerDetails.Text = "Customer Details";
+            // 
+            // btnEmployee
+            // 
+            this.btnEmployee.BorderRadius = 26;
+            this.btnEmployee.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnEmployee.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnEmployee.CheckedState.ForeColor = System.Drawing.Color.Teal;
+            this.btnEmployee.CheckedState.Parent = this.btnEmployee;
+            this.btnEmployee.CustomImages.Parent = this.btnEmployee;
+            this.btnEmployee.FillColor = System.Drawing.Color.LightSeaGreen;
+            this.btnEmployee.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmployee.ForeColor = System.Drawing.Color.White;
+            this.btnEmployee.HoverState.Parent = this.btnEmployee;
+            this.btnEmployee.Location = new System.Drawing.Point(995, 24);
+            this.btnEmployee.Name = "btnEmployee";
+            this.btnEmployee.ShadowDecoration.Parent = this.btnEmployee;
+            this.btnEmployee.Size = new System.Drawing.Size(236, 85);
+            this.btnEmployee.TabIndex = 4;
+            this.btnEmployee.Text = "Employee";
+            // 
+            // Dashboard
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Teal;
+            this.ClientSize = new System.Drawing.Size(1313, 637);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Name = "Dashboard";
+            this.Text = "Dashboard";
+            this.panel1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private Guna.UI2.WinForms.Guna2Button btnEmployee;
+        private Guna.UI2.WinForms.Guna2Button btnCustomerDetails;
+        private Guna.UI2.WinForms.Guna2Button btnCheckOut;
+        private Guna.UI2.WinForms.Guna2Button btnCustomerRegistration;
+        private Guna.UI2.WinForms.Guna2Button btnAddRoom;
+    }
+}
