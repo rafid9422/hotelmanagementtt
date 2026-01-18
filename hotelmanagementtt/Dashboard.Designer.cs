@@ -35,9 +35,10 @@
             this.btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnCustomerRegistration = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
-            this.uC_AddRoom1 = new hotelmanagementtt.All_user_control.UC_AddRoom();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_AddRoom1 = new hotelmanagementtt.All_user_control.UC_AddRoom();
             this.uC_AddRoom2 = new hotelmanagementtt.All_user_control.UC_AddRoom();
+            this.uC_AddRoom3 = new hotelmanagementtt.All_user_control.UC_AddRoom();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,6 +156,11 @@
             this.btnAddRoom.TabIndex = 0;
             this.btnAddRoom.Text = "Add Room";
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 30;
+            this.guna2Elipse1.TargetControl = this;
+            // 
             // uC_AddRoom1
             // 
             this.uC_AddRoom1.Location = new System.Drawing.Point(3, 123);
@@ -162,11 +168,6 @@
             this.uC_AddRoom1.Name = "uC_AddRoom1";
             this.uC_AddRoom1.Size = new System.Drawing.Size(1325, 901);
             this.uC_AddRoom1.TabIndex = 5;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 30;
-            this.guna2Elipse1.TargetControl = this;
             // 
             // uC_AddRoom2
             // 
@@ -177,12 +178,21 @@
             this.uC_AddRoom2.Size = new System.Drawing.Size(1287, 669);
             this.uC_AddRoom2.TabIndex = 2;
             // 
+            // uC_AddRoom3
+            // 
+            this.uC_AddRoom3.Location = new System.Drawing.Point(50, 178);
+            this.uC_AddRoom3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.uC_AddRoom3.Name = "uC_AddRoom3";
+            this.uC_AddRoom3.Size = new System.Drawing.Size(1309, 543);
+            this.uC_AddRoom3.TabIndex = 1;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1751, 784);
+            this.Controls.Add(this.uC_AddRoom3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -205,5 +215,6 @@
         private All_user_control.UC_AddRoom uC_AddRoom1;
         private All_user_control.UC_AddRoom uC_AddRoom2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private All_user_control.UC_AddRoom uC_AddRoom3;
     }
 }
