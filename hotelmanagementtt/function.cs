@@ -14,7 +14,7 @@ namespace hotelmanagementtt
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Data Source=.\\SQLEXPRESS01;Initial Catalog=hotel4;Integrated Security=True";
+            con.ConnectionString = "Data Source=.\\SQLEXPRESS01;Initial Catalog=sammi;Integrated Security=True";
 
 
 
