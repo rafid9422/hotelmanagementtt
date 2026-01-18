@@ -478,7 +478,6 @@
             this.txtType.Name = "txtType";
             this.txtType.Size = new System.Drawing.Size(300, 21);
             this.txtType.TabIndex = 17;
-            this.txtType.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
             // btnAddRoom
             // 
