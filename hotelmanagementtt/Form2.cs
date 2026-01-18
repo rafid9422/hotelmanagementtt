@@ -16,5 +16,25 @@ namespace hotelmanagementtt
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddRoom_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2DataGridView5_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -31,5 +31,10 @@ namespace hotelmanagementtt.All_user_control
         {
 
         }
+
+        private void UC_AddRoom_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
