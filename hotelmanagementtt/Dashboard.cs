@@ -16,5 +16,18 @@ namespace hotelmanagementtt
         {
             InitializeComponent();
         }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            uC_AddRoom1.Visible = false;
+            uC_CustomerRegistration1.Visible = false;
+            btnAddRoom.PerformClick();
+        }
+
+        private void btnCustomerRegistration_Click(object sender, EventArgs e)
+        {
+            uC_CustomerRegistration1.Visible = true;
+            uC_CustomerRegistration1.BringToFront();
+        }
     }
 }
