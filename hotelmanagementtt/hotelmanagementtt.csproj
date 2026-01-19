@@ -99,6 +99,9 @@
     <EmbeddedResource Include="All user control\UC_AddRoom.resx">
       <DependentUpon>UC_AddRoom.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="All user control\UC_CustomerRegistration.resx">
+      <DependentUpon>UC_CustomerRegistration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>

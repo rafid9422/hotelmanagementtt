@@ -36,9 +36,11 @@
             this.btnCustomerRegistration = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_AddRoom1 = new hotelmanagementtt.All_user_control.UC_AddRoom();
             this.uC_AddRoom2 = new hotelmanagementtt.All_user_control.UC_AddRoom();
-            this.uC_AddRoom3 = new hotelmanagementtt.All_user_control.UC_AddRoom();
+            this.uC_AddRoom4 = new hotelmanagementtt.All_user_control.UC_AddRoom();
+            this.uC_CustomerRegistration1 = new hotelmanagementtt.All_user_control.UC_CustomerRegistration();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +52,7 @@
             this.panel1.Controls.Add(this.btnCustomerRegistration);
             this.panel1.Controls.Add(this.btnAddRoom);
             this.panel1.Location = new System.Drawing.Point(41, 15);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1665, 160);
             this.panel1.TabIndex = 0;
@@ -68,7 +70,7 @@
             this.btnEmployee.ForeColor = System.Drawing.Color.White;
             this.btnEmployee.HoverState.Parent = this.btnEmployee;
             this.btnEmployee.Location = new System.Drawing.Point(1327, 30);
-            this.btnEmployee.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEmployee.Margin = new System.Windows.Forms.Padding(4);
             this.btnEmployee.Name = "btnEmployee";
             this.btnEmployee.ShadowDecoration.Parent = this.btnEmployee;
             this.btnEmployee.Size = new System.Drawing.Size(315, 105);
@@ -88,7 +90,7 @@
             this.btnCustomerDetails.ForeColor = System.Drawing.Color.White;
             this.btnCustomerDetails.HoverState.Parent = this.btnCustomerDetails;
             this.btnCustomerDetails.Location = new System.Drawing.Point(1004, 30);
-            this.btnCustomerDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCustomerDetails.Margin = new System.Windows.Forms.Padding(4);
             this.btnCustomerDetails.Name = "btnCustomerDetails";
             this.btnCustomerDetails.ShadowDecoration.Parent = this.btnCustomerDetails;
             this.btnCustomerDetails.Size = new System.Drawing.Size(315, 105);
@@ -108,7 +110,7 @@
             this.btnCheckOut.ForeColor = System.Drawing.Color.White;
             this.btnCheckOut.HoverState.Parent = this.btnCheckOut;
             this.btnCheckOut.Location = new System.Drawing.Point(681, 30);
-            this.btnCheckOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCheckOut.Margin = new System.Windows.Forms.Padding(4);
             this.btnCheckOut.Name = "btnCheckOut";
             this.btnCheckOut.ShadowDecoration.Parent = this.btnCheckOut;
             this.btnCheckOut.Size = new System.Drawing.Size(315, 105);
@@ -128,7 +130,7 @@
             this.btnCustomerRegistration.ForeColor = System.Drawing.Color.White;
             this.btnCustomerRegistration.HoverState.Parent = this.btnCustomerRegistration;
             this.btnCustomerRegistration.Location = new System.Drawing.Point(359, 30);
-            this.btnCustomerRegistration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCustomerRegistration.Margin = new System.Windows.Forms.Padding(4);
             this.btnCustomerRegistration.Name = "btnCustomerRegistration";
             this.btnCustomerRegistration.ShadowDecoration.Parent = this.btnCustomerRegistration;
             this.btnCustomerRegistration.Size = new System.Drawing.Size(315, 105);
@@ -149,7 +151,7 @@
             this.btnAddRoom.ForeColor = System.Drawing.Color.White;
             this.btnAddRoom.HoverState.Parent = this.btnAddRoom;
             this.btnAddRoom.Location = new System.Drawing.Point(36, 30);
-            this.btnAddRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddRoom.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddRoom.Name = "btnAddRoom";
             this.btnAddRoom.ShadowDecoration.Parent = this.btnAddRoom;
             this.btnAddRoom.Size = new System.Drawing.Size(315, 105);
@@ -160,6 +162,10 @@
             // 
             this.guna2Elipse1.BorderRadius = 30;
             this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this;
             // 
             // uC_AddRoom1
             // 
@@ -178,13 +184,20 @@
             this.uC_AddRoom2.Size = new System.Drawing.Size(1287, 669);
             this.uC_AddRoom2.TabIndex = 2;
             // 
-            // uC_AddRoom3
+            // uC_AddRoom4
             // 
-            this.uC_AddRoom3.Location = new System.Drawing.Point(50, 178);
-            this.uC_AddRoom3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.uC_AddRoom3.Name = "uC_AddRoom3";
-            this.uC_AddRoom3.Size = new System.Drawing.Size(1309, 543);
-            this.uC_AddRoom3.TabIndex = 1;
+            this.uC_AddRoom4.Location = new System.Drawing.Point(69, 193);
+            this.uC_AddRoom4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.uC_AddRoom4.Name = "uC_AddRoom4";
+            this.uC_AddRoom4.Size = new System.Drawing.Size(1337, 652);
+            this.uC_AddRoom4.TabIndex = 2;
+            // 
+            // uC_CustomerRegistration1
+            // 
+            this.uC_CustomerRegistration1.Location = new System.Drawing.Point(41, 193);
+            this.uC_CustomerRegistration1.Name = "uC_CustomerRegistration1";
+            this.uC_CustomerRegistration1.Size = new System.Drawing.Size(1582, 753);
+            this.uC_CustomerRegistration1.TabIndex = 3;
             // 
             // Dashboard
             // 
@@ -192,10 +205,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1751, 784);
-            this.Controls.Add(this.uC_AddRoom3);
+            this.Controls.Add(this.uC_CustomerRegistration1);
+            this.Controls.Add(this.uC_AddRoom4);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
@@ -215,6 +229,8 @@
         private All_user_control.UC_AddRoom uC_AddRoom1;
         private All_user_control.UC_AddRoom uC_AddRoom2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private All_user_control.UC_AddRoom uC_AddRoom3;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private All_user_control.UC_AddRoom uC_AddRoom4;
+        private All_user_control.UC_CustomerRegistration uC_CustomerRegistration1;
     }
 }
